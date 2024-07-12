@@ -1,0 +1,16 @@
+@host = http://localhost:3500
+
+# Get product
+GET {{host}}/products
+
+###
+
+# Create product
+POST {{host}}/products
+Content-Type: application/json
+
+{
+  "name": "Laptop",
+  "price": 500,
+  "warrantyMonths": 6
+}

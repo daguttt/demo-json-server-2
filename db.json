@@ -1,0 +1,10 @@
+{
+  "products": [
+    {
+      "id": "a1d7",
+      "name": "Laptop",
+      "price": 500,
+      "warrantyMonths": 6
+    }
+  ]
+}
